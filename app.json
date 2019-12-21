@@ -1,0 +1,39 @@
+{
+	"ret": 1,
+	"apiver": 9,
+	"appid": "moe.10935336.mclist",
+	"name": "McList",
+	"version": "1.0.0",
+	"version_id": 1,
+	"author": "AiEson",
+	"description": "一个超棒的Go语言MCLIST插件，它会MCPing多个服务器~",
+	"event": [
+		{
+			"name": "私聊消息",
+			"function": "EVENT_ON_PRIVATE_MSG",
+			"type": 21,
+			"priority": 20000,
+			"id": 1
+		},
+		{
+			"name": "群消息",
+			"function": "EVENT_ON_GROUP_MSG",
+			"type": 2,
+			"priority": 20000,
+			"id": 2
+		},
+		{
+			"name": "酷Q启动",
+			"function": "EVENT_ON_START",
+			"type": 1001,
+			"priority": 20000,
+			"id": 1001
+		}
+	],
+	"auth": [
+		106,
+		101
+	],
+	"menu": [],
+	"status": []
+}
