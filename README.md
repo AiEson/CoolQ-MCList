@@ -1,6 +1,7 @@
 # CoolQ-MCList
 一款Go语言编写的酷Q插件，可以批量MCPing服务器
 请在release内下载cpk文件
+使用/list来Ping服务器
 不可用于任何商业用途
 **使用说明：**
 MCList使用说明：
